@@ -1,6 +1,12 @@
 package ie.atu.lab5;
 
+import javax.xml.namespace.QName;
+
 public class Student1 {
+    public Student1(String name) {
+        this.name = name;
+    }
+
     private String name;
     private String email;
     private String course;
@@ -9,41 +15,35 @@ public class Student1 {
 
     }
 
-
-
-    public void Student1() {
-        this.course = "software";
+    public Student1(String name, String course, String email) {
         this.name = "alex";
-        this.email = "alex@gmail.com";
+        this.course = "arts";
+        this.email = "feakleboy";
     }
 
-    public Student1(String name, String course , String email) {
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String Name) {
         this.name = name;
-        this.course = course;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setEmail(String email) {
         this.email = email;
     }
 
-        public String getName () {
-            return this.name;
-        }
-
-        public void setName (String name){
-            this.name = name;
-        }
-
-        public String getEmail () {
-            return this.email;
-        }
-
-        public void setEmail (String email){
-            this.email = email;
-        }
-
-        public String getCourse () {
-            return this.course;
-        }
+    public String getCourse() {
+        return this.course;
+    }
 
     public void setCourse(String course) {
         this.course = course;
     }
+    
+
 }
