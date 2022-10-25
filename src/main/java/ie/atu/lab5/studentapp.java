@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class studentapp {
     public static void main(String[] args) {
         Student1 students = new Student1();
+
+
+
         System.out.println("please enter student name");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
