@@ -3,13 +3,12 @@ package ie.atu.lab5;
 import javax.xml.namespace.QName;
 
 public class Student1 {
-    public Student1(String name) {
-        this.name = name;
-    }
+
 
     private String name;
     private String email;
     private String course;
+
 
     public Student1() {
 
@@ -25,7 +24,7 @@ public class Student1 {
         return this.name;
     }
 
-    public void setName(String Name) {
+    public void setName(String name) {
         this.name = name;
     }
 
