@@ -1,4 +1,8 @@
 package ie.atu.lab5;
+// Alex Cronin
+// G00406014
+// this code is designed to ask 2 students for their name,email and course and then
+// use a constructor to populate the 3rd students details.
 
 import java.util.Scanner;
 import java.util.concurrent.Delayed;
@@ -42,19 +46,19 @@ public class studentapp {
         Student1 students3 = new Student1(name , course , email);
 
 
-        System.out.println("\nstudent1 details");
+        System.out.println("\n the first students details");
         System.out.println("you entered : " + students.getName());
         System.out.println("you entered : " + students.getEmail());
         System.out.println("you entered : " + students.getCourse());
 
 
-        System.out.println("\nstudent2 details");
+        System.out.println("\nthe second students details");
         System.out.println("you entered : " + students2.getName());
         System.out.println("you entered : " + students2.getEmail());
         System.out.println("you entered : " + students2.getCourse());
 
 
-        System.out.println("\nstudent3 details");
+        System.out.println("\nthe final student details");
         System.out.println("student3 name : " +   students3.getName());
         System.out.println("student3 email : " +  students3.getEmail());
         System.out.println("student3 course : " + students3.getCourse());

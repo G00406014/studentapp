@@ -17,7 +17,7 @@ public class Student1 {
     public Student1(String name, String course, String email) {
         this.name = "alex";
         this.course = "arts";
-        this.email = "feakleboy";
+        this.email = "feakleboy@gmail.com";
     }
 
     public String getName() {
